@@ -11,7 +11,7 @@ const addProduct = async (product) => {
     id: products.length + 1,
     title,
     description,
-    price,  
+    price,
     thumbnail: thumbnail || [],
     code,
     stock,
